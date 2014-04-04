@@ -1,0 +1,31 @@
+.ui-tabs {
+	padding: 0;
+}
+.ui-tabs .ui-tabs-nav {
+	padding: 0;
+}
+.ui-tabs .ui-tabs-nav li {
+	margin: 1px 0 0 0;
+}
+.ui-tabs .ui-tabs-panel {
+	padding: 0;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+	color: #fff;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-default a {
+	background-color: #5E5E5E;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+	background-color: #003FBD;
+}
+/*--------- search form tab styles ----------------*/
+#searhForm.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+	width: 115px;
+}
+#searhForm.ui-tabs .ui-tabs-nav li.ui-state-default a {
+	background-color: #5E5E5E;
+}
+#searhForm.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+	background-color: #003FBD;
+}

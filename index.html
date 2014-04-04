@@ -1,0 +1,444 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>TravelAzure</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,300italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+	<!-- ui tabs -->
+	<link href="assets/jqueryui/css/no-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+	<link href="assets/jqueryui/css/custom-ui-styles.css" rel="stylesheet">
+	<script src="js/jquery-1.10.2.js"></script>	
+	<script src="assets/jqueryui/js/jquery-ui-1.10.4.custom.js"></script>	
+	<!-- bx slider -->
+	<link rel="stylesheet" type="text/css" href="assets/bxslider/jquery.bxslider.css">
+	<script src="assets/bxslider/jquery.bxslider.min.js"></script>
+	<!-- main style -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body class="home">
+	<div id="header">
+		<div class="container">
+			<div id="searhForm" class="tab">
+				<ul class="tabmenu">
+					<li><a href="#tab-1">Flight + Hotel</a></li>
+					<li><a href="#tab-2">Hotel Only</a></li>
+				</ul>
+				<div id="tab-1">
+					<form>
+						<div class="flightField">
+							<div class="wrapper15">
+								<p>
+									<select>
+										<option>Destination:</option>
+									</select>
+								</p>
+								<p>
+									<select>
+										<option>All Hotels:</option>
+									</select>
+								</p>
+								<p class="group">
+									<input type="text" id="departure" placeholder="Departure">
+									<input type="text" id="nights" placeholder="Nights">
+								</p>
+							</div>
+						</div>
+						<div class="hotelField">
+							<div class="wrapper15">
+								<select>
+									<option>Choose plan:</option>
+								</select>
+								<select>
+									<option>Choose type:</option>
+								</select>
+								<p id="numberOfRooms" class="group cf">
+									<label>NUMBER OF ROOMS</label>
+									<select>
+										<option>1</option>
+									</select>
+								</p>
+								<div id="roomDetails">
+									<table>
+										<tr>
+											<td class="roomName">Room 1</td>
+											<td>ADULTS</td>
+											<td>CHILDREN</td>
+										</tr>
+										<tr>
+											<td></td>
+											<td>
+												<select>
+													<option>1</option>
+												</select>
+											</td>
+											<td>
+												<select>
+													<option>1</option>
+												</select>
+											</td>
+										</tr>
+									</table>
+								</div>	
+							</div>
+						</div>
+					</form>
+				</div>
+				<div id="tab-2">
+					<form>						
+						<div class="hotelField">
+							<div class="wrapper15">
+								<select>
+									<option>Choose plan:</option>
+								</select>
+								<select>
+									<option>Choose type:</option>
+								</select>
+								<p id="numberOfRooms" class="group cf">
+									<label>NUMBER OF ROOMS</label>
+									<select>
+										<option>1</option>
+									</select>
+								</p>
+								<div id="roomDetails">
+									<table>
+										<tr>
+											<td class="roomName">Room 1</td>
+											<td>ADULTS</td>
+											<td>CHILDREN</td>
+										</tr>
+										<tr>
+											<td></td>
+											<td>
+												<select>
+													<option>1</option>
+												</select>
+											</td>
+											<td>
+												<select>
+													<option>1</option>
+												</select>
+											</td>
+										</tr>
+									</table>
+								</div>	
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div id="topHeader" class="cf">
+				<h1 id="logo"><a href="#"><img src="images/logo.png"></a></h1>
+				<div id="menuWrapper">
+					<ul class="topMenu cf">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Reviews</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+					<ul class="menu cf">
+						<li><a href="#">Destination</a></li>
+						<li><a href="#">Online Payment</a></li>
+						<li><a href="#">HOT offers</a></li>
+					</ul>
+					<div class="phoneNumbers clear cf">
+						<p><a href="#"><span>BG</span> 0844 800 8000</a></p>
+						<p><a href="#"><span>UK</span> 01 437 0300</a></p>
+					</div>					
+					
+				</div>
+				<div id="headerSliderWrap">
+					<ul class="headerSlider">
+						<li>
+							<div class="slideImg cf">
+								<div class="slideImgWrap">
+									<span class="ribbon"></span>
+									<img src="images/header-slider-img1.jpg">
+								</div>
+								<div class="cf">
+									<div class="slideRoomInfo">
+										From <span>&pound; 1349</span> per person <br>
+										<small>Offer include FLIGHT + HOTEL</small> <img src="images/plane.png"><img src="images/home-icon.png">
+									</div>
+									<div class="float-right"><a href="" class="button">Details</a></div>
+								</div>
+							</div>
+							<div class="slideInfo">
+								<div class="wrapper15">
+									<h3>Royal Benson Saint</h3>
+									<p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</b></p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="slideImg">
+
+							</div>
+							<div class="slideInfo">
+								<div class="wrapper15">
+									<h3>Royal Benson Saint</h3>
+									<p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</b></p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+								</div>
+							</div>
+						</li>
+						<!-- <li><img src="images/img2.jpg" /></li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main_content">
+		<div class="container">
+			<div class="news cf"><span>Exclusive News</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula suscipit quam. Proin nec bibendum neque, id sagittis eros. Nullam</div>
+			<div id="topOffer" class="cf">
+				<div class="topOfferTitle">
+					<b>Top Destination Offers</b>
+					<a href="" class="showAll">show all</a>
+				</div>
+				<div class="topBox">
+					<p class="off">&pound; 450 off</p>
+					<p class="daysLeft">64 days left</p>
+					<p class="price"><span>&pound; 250</span><br> per person</p>
+					<div class="imageWrapper">
+						<img src="images/img2.jpg">
+					</div>
+					<div class="details">
+						<h2><b>Royaal benton Saint</b> <span class="rate">5</span></h2>
+						<p class="map">Centre, Mallibu-poloinna 25</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula suscipit quam. Proin nec bibendum neque, id sagittis eros. Nullam a bibendum neque, vitae</p>
+					</div>
+					<a href="">DETAILS</a>
+				</div>
+				<div class="topBox">
+					<p class="off">&pound; 450 off</p>
+					<p class="daysLeft">64 days left</p>
+					<p class="price"><span>&pound; 450</span><br> per person</p>
+					<div class="imageWrapper">
+						<img src="images/img1.jpg">
+					</div>
+					<div class="details">
+						<h2><b>Unial Central universal Royal city</b> <span class="rate">5</span></h2>
+						<p class="map">Centre, Mallibu-poloinna 25</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula suscipit</p>
+					</div>
+					<a href="">DETAILS</a>
+				</div>
+				<div class="topBox">
+					<p class="off">&pound; 450 off</p>
+					<p class="daysLeft">64 days left</p>
+					<p class="price"><span>&pound; 250</span><br> per person</p>
+					<div class="imageWrapper">
+						<img src="images/img2.jpg">
+					</div>
+					<div class="details">
+						<h2><b>Royaal benton Saint</b> <span class="rate">5</span></h2>
+						<p class="map">Centre, Mallibu-poloinna 25</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula suscipit quam. Proin nec bibendum neque, id sagittis eros. Nullam a bibendum neque, vitae</p>
+					</div>
+					<a href="">DETAILS</a>
+				</div>
+				<div class="topBox no-margin-right">
+					<p class="off">&pound; 450 off</p>
+					<p class="daysLeft">64 days left</p>
+					<p class="price"><span>&pound; 450</span><br> per person</p>
+					<div class="imageWrapper">
+						<img src="images/img1.jpg">
+					</div>
+					<div class="details">
+						<h2><b>Unial Central universal Royal city</b> <span class="rate">5</span></h2>
+						<p class="map">Centre, Mallibu-poloinna 25</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula suscipit</p>
+					</div>	
+					<a href="">DETAILS</a>
+				</div>
+			</div>
+			<div class="featured_offer cf">
+				<ul>
+					<li><a href="">FEATURED OFFERS</a></li>
+					<li><a href="">POPULAR OFFERS</a></li>
+				</ul>
+				<div class="feature">
+					<div class="fltleft">
+						<img src="images/img1.png"><br>
+						<a href="">DETAILS</a>
+					</div>
+					<div class="fltright">
+						<h2>&pound; 250 <span>per person</span></h2>
+						<h4>Royal Benton Saints <span class="rate">5</span></h4>
+						<p>Centre, mallibu-Poloinna 25</p>
+						<p><a href="">Contact us here 123/456 789</a></p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula suscipit quam. Proin nec bibendum neque, id </p>
+					</div>
+				</div>
+				<div class="feature">
+					<div class="fltleft">
+						<img src="images/img2.png"><br>
+						<a href="">DETAILS</a>
+					</div>
+					<div class="fltright">
+						<h2>&pound; 250 <span>per person</span></h2>
+						<h4>Royal Benton Saints <span>5</span></h4>
+						<p>Centre, mallibu-Poloinna 25</p>
+						<p><a href="">Contact us here 123/456 789</a></p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula suscipit quam. Proin nec bibendum neque, id </p>
+					</div>
+				</div>
+				<div class="feature">
+					<div class="fltleft">
+						<img src="images/img1.png"><br>
+						<a href="">DETAILS</a>
+					</div>
+					<div class="fltright">
+						<h2>&pound; 250 <span>per person</span></h2>
+						<h4>Royal Benton Saints <span>5</span></h4>
+						<p>Centre, mallibu-Poloinna 25</p>
+						<p><a href="">Contact us here 123/456 789</a></p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula suscipit quam. Proin nec bibendum neque, id </p>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="article">
+				<div class="tab">
+					<ul>
+						<li><a href="">HOTTEST NEWS</a></li>
+						<li><a href="">SHOW ALL</a></li>
+					</ul>
+					<ul>
+						<li>
+							<span class="date">15 August 2013</span>
+							<span class="read-article">Read Article</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod incididunt ut labore et ...</p>
+						</li>
+						<li>
+							<span class="date"></span>
+							<span class="read-article"></span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod incididunt ut labore et ...</p>
+						</li>
+						<li>
+							<span class="date"></span>
+							<span class="read-article"></span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod incididunt ut labore et ...</p>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<div class="weather">
+						<img src="images/weather.png">
+						<p>Check what the weather will be during your holiday</p>
+					</div>
+					<div>
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</li>
+						</ul>
+						<p>Testimonials <a href="">SHOW ALL</a></p>
+					</div>
+					<div>
+						<div>
+							<img src="images/img-7.jpg">
+							<span>Royal Benton saint </span>
+							<p>Centre, Mallibu-Poloinna 25</p>
+						</div>
+						<p>Often visited destinations.</p>
+					</div>
+				</div>
+			</div>
+			<div>
+				<img src="images/banner.png">
+			</div>
+			<div>
+				<div class="newsletter">
+					<p>By subscribing to our mainling list you will always be updates with the latest news from us.</p>
+					<form>
+						<input class="name" type="text" placeholder="Your name" >
+						<input class="email" type="text" placeholder="Your email" >
+						<input type="submit" value="JOIN US">
+					</form>
+					<p>*It really works! <span>Mailchimp Intergration.</span></p>
+					<p>Your <span>privacy</span> is important to us and we will rent or sell information.</p>
+				</div>
+				<div>
+					<img src="images/img-5.png">
+					<img src="images/img-6.png">
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, ipsum vel gravida cursus, orci purus suscipit nunc, ultricies viverra neque eros quis neque. </p>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="container">
+			<div class="margin-top cf">
+				<div class="footer-widgets">
+					<img src="images/img-1.png">
+					<h4>USEFULL LINKS</h4>
+					<ul>
+						<li><a href="">- Lorem ipsum dolor sit amet, consectetur </a></li>
+						<li><a href="">- adipiscing elit. Morbi tincidunt, </a></li>
+						<li><a href="">- gravida cursus,</a></li>
+						<li><a href="">- ultricies viverra neque eros quis </a></li>
+						<li><a href="">- Aliquam aliquet arcu non </a></li>
+					</ul>
+				</div>
+				<div class="footer-widgets">
+					<img src="images/img-2.png">
+					<h4>SITE NAVIGATION</h4>
+					<ul>
+						<li><a href="">- About us</a></li>
+						<li><a href="">- News</a></li>
+						<li><a href="">- Contacts</a></li>
+						<li><a href="">- Reviews</a></li>
+						<li><a href="">- Testimonials</a></li>
+					</ul>
+				</div>
+				<div class="footer-widgets">
+					<img src="images/img-3.png">
+					<h4>SERVICES</h4>
+					<ul>
+						<li><a href="">- Destinations</a></li>
+						<li><a href="">- Payments method</a></li>
+						<li><a href="">- Hot offers</a></li>
+						<li><a href="">- Special offers</a></li>
+						<li><a href="">- Recommended offers</a></li>
+					</ul>
+				</div>
+				<div class="footer-widgets">
+					<img src="images/img-4.png">
+					<h4>SOCIAL NETWORKS</h4>
+					<ul class="social-icon">
+						<li><a class="fb" href=""></a></li>
+						<li><a class="google" href=""></a></li>
+						<li><a class="twitter" href=""></a></li>
+						<li><a class="other" href=""></a></li>
+					</ul>
+				</div>
+				<div class="footer-widgets no-margin-right">
+					<a href=""><img src="images/logo-small.png"></a>
+					<div class="margin-left">
+						<ul>
+							<li><a href="">- Terms and Condition</a></li>
+							<li><a href="">- Rights</a></li>
+						</ul>
+						<img src="images/atol.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">		
+		$(document).ready(function() {
+			$(".tab").tabs();
+			$('.headerSlider').bxSlider({
+				pager: false
+			});
+		});
+	</script>
+</body>
+</html>
